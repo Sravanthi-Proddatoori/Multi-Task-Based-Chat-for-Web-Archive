@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #commands {
+            margin-top: 20px;
+        }
+
+        #archiveLink {
+            margin-top: 10px;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <h2>Speech to Text</h2>
+    <button id="startButton">Start Voice Recognition</button>
+    <div id="commands"></div>
+    <p id="archiveLink"></p>
+
+    <script src="popup.js"></script>
+</body>
+</html>
