@@ -22,7 +22,6 @@ This Chrome extension allows you to convert spoken words into text and then inse
 ## Usage
 1. Click the extension icon or press Alt+, to start speech recognition, or click the microphone icon in the lower-right corner of the web page.
 2. Speak into your microphone. The extension will convert your speech into text and insert it into the currently focused input field on the web page.
-3. Saying "That's all" will stop the speech recognition and submit the input.
 4. To stop speech recognition without submitting, click the extension icon or press Alt+, again, or click the microphone icon.
 
 ## Limitations
