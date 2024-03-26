@@ -1,2 +1,2 @@
 # Multi-Task-Based-Chat-for-Web-Archive
-We are creating a chrome extension with the backend to enable voice chat on the Internet Archive website. We are automating the process of archiving a specific website into web archives.
+This repository contains a JavaScript code snippet for a Chrome extension that integrates speech recognition and interaction with a web archive feature. The code allows users to convert speech to text, scrape webpage content, and send data to a backend server for further processing. Future enhancements may include converting backend responses into voice for improved user experience
