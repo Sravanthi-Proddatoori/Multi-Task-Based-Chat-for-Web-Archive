@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Archive the website",
+  "version": "1.0",
+  "description": "Convert speech to text and insert it into the focused input field.",
+  "permissions": ["activeTab", "scripting", "webNavigation"],
+  "host_permissions": ["https://web.archive.org/*"],
+  
+  "action": {
+    "default_title": "Toggle Speech to Text"
+  },
+  "commands": {
+    "toggle_speech_to_text": {
+      "suggested_key": {
+        "default": "Alt+U"
+      },
+      "description": "Toggle Speech to Text"
+    }
+  },
+  "icons" : {
+    "128": "archive.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
