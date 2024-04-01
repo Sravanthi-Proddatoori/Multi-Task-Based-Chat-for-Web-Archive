@@ -1,2 +1,0 @@
-# Multi-Task-Based-Chat-for-Web-Archive
-This repository contains a JavaScript code snippet for a Chrome extension that integrates speech recognition and interaction with a web archive feature. The code allows users to convert speech to text, scrape webpage content, and send data to a backend server for further processing. Future enhancements may include converting backend responses into voice for improved user experience
